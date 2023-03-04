@@ -425,11 +425,11 @@
   margin-bottom: 108px;
 }
 
-.footer__column-logo {
+.footer__column {
   flex: auto;
 }
 
-.footer__column-content-hours {
+.footer__column_content_hours {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
