@@ -425,17 +425,17 @@
   margin-bottom: 108px;
 }
 
-.footer__column_logo {
+.footer__column-logo {
   flex: auto;
 }
 
-.footer__column_content_hours {
+.footer__column-content-hours {
   display: flex;
   flex-direction: column;
   margin-right: 100px;
 }
 
-.footer__column_content_social {
+.footer__column-content-social {
   display: flex;
   flex-direction: column;
 }
