@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Arial, sans-serif;
   /* i have no Helvetica Neue font and i don't know
   how i can install it*/
 }
@@ -38,10 +38,10 @@
   list-style: none;
   padding: 0;
   flex-wrap: wrap;
-  /* font-size: 8px; */
 }
 
 .nav__link {
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -56,6 +56,7 @@
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
+  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -64,6 +65,8 @@
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -246,6 +249,8 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .staff__title {
@@ -343,9 +348,7 @@
 }
 
 .step {
-  display: flex;
-  flex-direction: column;
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -412,12 +415,14 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px;
   padding-left: 80px;
   padding-right: 102px;
   min-height: 224px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__columns {
@@ -475,6 +480,10 @@
   text-decoration: none;
 }
 
+ul :last-of-type {
+  margin-bottom: 0;
+}
+
 .footer__column-link:hover {
   color: #c1c1c1;
 }
@@ -484,10 +493,12 @@
 } */
 
 .footer__social-icon {
+  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
 
 .footer__copyright {
-  /* column-gap: ; */
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
