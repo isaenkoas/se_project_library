@@ -24,19 +24,19 @@
             between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a href="#staffpicks" class="nav__link">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a href="#upcoming-events" class="nav__link">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a href="#library-member" class="nav__link">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a href="#about-us" class="nav__link">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a href="#contact-us" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -52,14 +52,14 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a href="#about-us" class="header__link">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="events">
+        <section id="upcoming-events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -70,7 +70,9 @@
                 <div
                   class="event-info__icon event-info__icon_type_calendar"
                 ></div>
-                <p class="event-info__text"><time datetime="01-12">Mon, January 12</time</p>
+                <p class="event-info__text">
+                  <time datetime="01-12"> Mon, January 12</time>
+                </p>
               </div>
               <div class="event-info__item">
                 <div class="event-info__icon event-info__icon_type_pin"></div>
@@ -135,7 +137,7 @@
           </div>
         </section>
 
-        <section class="staff">
+        <section id="staffpicks" class="staff">
           <!-- <img
             src="./images/staff_picks_background.jpg"
             alt="staff_picture"
@@ -215,7 +217,7 @@
           </ul>
         </section>
 
-        <section class="membership">
+        <section id="library-member" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -271,7 +273,7 @@
           </ul>
         </section>
 
-        <section class="about">
+        <section id="about-us" class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -311,7 +313,9 @@
               <li class="footer__list-item">Weekends: 10am-6pm</li>
             </ul>
           </div>
-          <div class="footer__column footer__column_content_social"
+          <div
+            id="contact-us"
+            class="footer__column footer__column_content_social"
           >
             <h3 class="footer__column-heading">Social media</h3>
             <ul class="footer__list">
